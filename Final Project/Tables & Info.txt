@@ -1,0 +1,34 @@
+Form From: https://www.123formbuilder.com/free-form-templates/supplier-database-registration-form
+
+Stores Table:
+storeID
+storeName
+
+Store Contacts Table:
+contactID
+storeID
+firstName
+lastName
+phoneNumber
+
+Instruments Table:
+instrumentID
+instrumentName
+instrumentSection
+price
+
+Accessories:
+accessoryID
+accessoryName
+instrumentID
+price
+
+Orders Table:
+orderID
+storeID
+instrumentID
+accessoryID
+quantity
+totalPrice
+
+
